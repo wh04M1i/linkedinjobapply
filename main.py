@@ -15,8 +15,8 @@ print = ('enter your password : ')
 password = input()
 
 # Write here the job position and local for search
-position = "engineer"
-local = "delhi"
+position = "software engineer"
+local = "bihar"
 
 # formating to linkedin model
 position = position.replace(' ', "%20")
@@ -124,7 +124,7 @@ badwords = {'gender', 'experience', 'application', 'Apply', 'salary', 'todos', '
             'está', 'comprometida', 'forma', 'Transporte', 'Yes', 'gente', 'melhor', 'lugar', 'believe', 'moment', 'próximo', 'deasafio',
             'dos', 'oportunidade', 'idade', 'new', 'Try', 'Premium', 'deficiência', 'sempre', 'criar', 'employee', 'problemas', 'unavailable',
             'Brasil', 'dado', 'hiring', 'trends', 'equipe', 'recent', 'temos', 'build', 'career', 'nós', 'diferencial', 'ma',
-            'total', 'oferecemos', 'contato', 'tem', 'não', 'free', 'Full'}
+            'total', 'oferecemos', 'contato', 'tem', 'não', 'free', 'Full' , 'mc' , 'bc'}
 
 # deleting the useless words on plot
 stopwords.update(badwords)
