@@ -15,8 +15,8 @@ print = ('enter your password : ')
 password = input()
 
 # Write here the job position and local for search
-position = "engineer"
-local = "delhi"
+position = "software engineer"
+local = "bihar"
 
 # formating to linkedin model
 position = position.replace(' ', "%20")
