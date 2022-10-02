@@ -124,7 +124,7 @@ badwords = {'gender', 'experience', 'application', 'Apply', 'salary', 'todos', '
             'está', 'comprometida', 'forma', 'Transporte', 'Yes', 'gente', 'melhor', 'lugar', 'believe', 'moment', 'próximo', 'deasafio',
             'dos', 'oportunidade', 'idade', 'new', 'Try', 'Premium', 'deficiência', 'sempre', 'criar', 'employee', 'problemas', 'unavailable',
             'Brasil', 'dado', 'hiring', 'trends', 'equipe', 'recent', 'temos', 'build', 'career', 'nós', 'diferencial', 'ma',
-            'total', 'oferecemos', 'contato', 'tem', 'não', 'free', 'Full' , 'mc' , 'bc' , 'chutiya' , 'madarchod, }
+            'total', 'oferecemos', 'contato', 'tem', 'não', 'free', 'Full' , 'mc' , 'bc'}
 
 # deleting the useless words on plot
 stopwords.update(badwords)
